@@ -12,9 +12,10 @@ while (n < 10)
 {
 putchar('0' + n);
 if (n == 9)
-}
+{
 putchar('\n');
-														break;												}
+break;
+}
 else
 {
 putchar(44);
