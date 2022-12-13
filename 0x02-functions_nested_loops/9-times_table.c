@@ -18,6 +18,8 @@ if (p >= 0 && p <= 9)
 {
 if (j == 0)
 _putchar(p + '0');
+else if (j == 10)
+{
 _putchar('\n');
 k++;
 }
@@ -43,7 +45,3 @@ _putchar((p / 10) + '0');
 _putchar((p % 10) + '0');
 }
 }
-}
-}
-}
-
