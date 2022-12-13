@@ -1,4 +1,4 @@
-#include "main.c"
+#include <main.h>
 /**
  *main - calls the function _putchar
  *Description: programs that prints Holberton, followed by a new line
